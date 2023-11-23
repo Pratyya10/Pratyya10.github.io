@@ -1,0 +1,44 @@
+/* Import Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: font-bn-1;
+    src: url('Fonts/bn/bn-1/SolaimanLipi.ttf');
+ }
+
+ /* Margins */
+ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: "Merriweather", sans-serif;
+ }
+
+ body h1 { 
+   color: #282f59
+ }
+
+body p1 {
+   color: #7c7c7c 
+}
+
+/* Header */ 
+
+header {
+   background-image: url("Images/bg-1.JPG");
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: cover;
+   min-height: 100vh;
+
+
+}
+
+.row {
+   display: flex;
+   align-items: center;
+   padding-top: 10rem;
+}
